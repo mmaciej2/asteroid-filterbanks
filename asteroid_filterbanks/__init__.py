@@ -7,6 +7,7 @@ from .torch_stft_fb import TorchSTFTFB
 from .griffin_lim import griffin_lim, misi
 from .multiphase_gammatone_fb import MultiphaseGammatoneFB
 from .melgram_fb import MelGramFB
+from .windowed_free_fb import WindowedFreeFB
 
 __version__ = "0.4.0"
 
@@ -112,6 +113,7 @@ param_sinc = ParamSincFB
 stft = STFTFB
 torch_stft = TorchSTFTFB
 multiphase_gammatone = mpgtf = MultiphaseGammatoneFB
+windowed_free = WindowedFreeFB
 
 # For the docs
 __all__ = [
